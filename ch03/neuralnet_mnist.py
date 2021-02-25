@@ -33,6 +33,9 @@ def predict(network, x):
 
 
 x, t = get_data()
+print(x.shape)
+print(t.shape)
+print(range(len(x)))
 network = init_network()
 accuracy_cnt = 0
 for i in range(len(x)):
